@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "tsc --noEmit && vite build",
+        "serve": "vite",
+        "serve-production": "http-server ./dist/ --proxy http://localhost:8080?",
+        "test": "jest"
+    },
+    "dependencies": {
+        "tailwindcss": "^1.9.2",
+        "tslib": "^2.0.3",
+        "vue": "^3.0.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.14",
+        "@vue/compiler-sfc": "^3.0.0",
+        "http-server": "^0.12.3",
+        "jest": "^26.5.3",
+        "ts-jest": "^26.4.1",
+        "typescript": "^4.0.3",
+        "vite": "^1.0.0-rc.4"
+    }
+}

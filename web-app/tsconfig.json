@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "es2020",
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "/@/*": [ "src/*" ]
+        },
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "importHelpers": true,
+        "lib": [ "esnext", "dom", "dom.iterable", "scripthost" ],
+        "skipLibCheck": true,
+        "sourceMap": true
+    },
+    "include": [ "**/*.ts", "**/*.tsx" ],
+    "exclude": [ "dist", "node_modules" ]
+}
